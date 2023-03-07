@@ -14,3 +14,6 @@ print(diffrentName)
 #overwrite the contents of `fullName`
 fullName = fullName.replace("Stan", "Bob")
 print(fullName)
+
+#https://docs.python.org/3/library/string.html
+#string operations
