@@ -12,7 +12,7 @@ print(people[2])
 print(people[0])
 print(people[-1])
 
-#accessing 
+#accessing and looking for elemements
 
 index = 0
 groceries = [
