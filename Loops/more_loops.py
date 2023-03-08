@@ -11,13 +11,13 @@ instructionSteps = [
 ]
 
 #1
-# instructions = "First, "
 
-# for nextInstruction in instructionSteps:
+instructions = "First, "
+for nextInstruction in instructionSteps:
 
-#   instructions = instructions + nextInstruction + ", then "
+  instructions = instructions + nextInstruction + ", then "
 
-# print(instructions + "you're there!")
+print(instructions + "you're there!") #print on the last iteration
 
 #2
 instructionStepsButScreamed = []
