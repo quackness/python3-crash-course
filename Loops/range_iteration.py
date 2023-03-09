@@ -1,6 +1,5 @@
 import time
 
-
 bacteria = "a"
 generations = 10
 
