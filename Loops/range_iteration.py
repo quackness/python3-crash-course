@@ -1,5 +1,10 @@
-bacteria = "a"
+import time
 
-for generation in range(0, 10):
-  bacteria = bacteria + bacteria
-print(bacteria)
+
+bacteria = "a"
+generations = 10
+
+for generation in range(0, generations):
+  bacteria = bacteria * 2
+  time.sleep(0.5)
+  print(bacteria)
