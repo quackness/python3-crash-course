@@ -25,7 +25,7 @@ replacements = [
   ["An adjective", "ADJ"],
 ]
 
-#naive version
+#a naive version using indexes
 # for replacement in replacements:
 #   prompt = replacement[0]
 #   placeholder = replacement[1]
@@ -33,7 +33,7 @@ replacements = [
 #   print(prompt)
 #   print(placeholder)
 
-# a destructing version
+# a list destructing version
 
 # for prompt, placeholder, test in replacements:
 #   print(prompt)
